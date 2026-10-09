@@ -1,4 +1,4 @@
-```css
+
 * {
     box-sizing: border-box;
 }
@@ -183,4 +183,24 @@ p span {
         font-size: 0.95rem;
     }
 }
-```
+
+
+.mensaje-error {
+    display: block;
+    min-height: 0;
+    margin-top: -14px;
+    margin-bottom: 14px;
+    color: #ff4d4f;
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.mensaje-error:empty {
+    display: none;
+}
+
+input.input-error {
+    border: 1px solid #ff4d4f;
+    outline-color: #ff4d4f;
+}
